@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.header-main {
+    background-image: url(../img/miramar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+/* inicio-header */
+header nav ul {
+    margin-left: auto;
+}
+
+header nav .item1 {
+    color: #ffffff !important;
+}
+
+header nav img {
+    width: 100px;
+}
+
+header nav ul li .item2 {
+    color: rgba(255, 255, 255, 0.596) !important;
+}
+
+header nav ul li .item3 {
+    color: #008000 !important;
+}
+
+/* final-header */
+/* inicio-main */
+main .row {
+    height: 550px;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+main .display-5 {
+    font-weight: 400;
+}
+
+main .lead {
+    font-size: 17px;
+    font-weight: 450;
+}
+
+main .main-info {
+    padding-right: 20%;
+    padding-top: 26%;
+    color: white;
+    text-align: end;
+}
+
+main .btn {
+    border-radius: 5px;
+    padding: 7px 20px;
+    font-weight: 500;
+
+
+}
+
+main .btn-link {
+    border: 1px solid white;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    main .main-info {
+        padding-right: 20px;
+        color: white;
+        text-align: end;
+    }
+
+    main .row {
+        width: 100%;
+    }
+}
+
+/* Final-main*/
+/* Inicio-cards*/
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cards .card {
+    margin: 2px 20px 40px 0;
+    padding: 0;
+}
+
+section .card .js {
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 2px 2px;
+}
+
+section .card .Reactjs {
+    background-color: rgb(63, 179, 218);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
+section .card .ada1 {
+    background-color: rgb(129, 126, 126);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
+section .card .ada2 {
+    background-color: rgb(172, 23, 23);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
+@media (max-width: 768px) {
+    .cards .card {
+        margin: 10px auto;
+    }
+}
+
+/* Final-cards*/
+/* Inicio section imagen-mensaje */
+section .section-imagen {
+    background-image: url(../img/Miramar2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+
+}
+
+section .section-texto {
+    
+    height: 400px;
+    color: #ffffff;
+    font-weight:350;
+}
+section .section-texto h2{
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+
+section .section-p {
+    font-size: 13.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5;
+}
+section .section-texto .btn-link{
+    border: 1px solid white;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+}
+@media (max-width: 768px) {
+    section .section-texto h2{
+        padding-top: 20%;
+        
+        
+    }
+}
+    
+/* Final section imagen-mensaje */
+/* inicio-contacto */
+.contacto {
+    width: 50%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+.contacto .contacto-mensaje1{
+    font-weight: 600;
+}
+.contacto .contacto-mensaje2{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.contacto-nombre {
+    width: 47%;
+    margin-bottom: 15px;
+}
+
+.contacto-apellido {
+    width: 47%;
+  margin-left: 3.5%;
+ 
+
+}
+
+.contacto-texto {
+    flex-direction: row;
+    width: 100%;
+}
+
+.contacto-boton {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #89d82ece;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 500;
+}
+@media (max-width: 992px) {
+    .contacto-nombre {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .contacto-apellido {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+    
+    }
+}
+
+/* Final-contacto */
+/* inicio-footer */
+.footer{
+    background-color:#0f2027d2;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+
+}
+.footer nav ul {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer nav ul li {
+    display: inline;
+    
+}
+.footer nav ul li a {
+    display: inline;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.footer nav ul li .item1{
+     display: table-caption; 
+       text-decoration: none;
+       color: #ffffff;
+       
+}
+
+@media (max-width: 768px) {
+    .footer nav ul li{
+        font-size: large;
+       font-size: 15px;
+    }
+    
+}
+@media (max-width: 600px) {
+    .footer nav ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer nav ul li{
+        line-height: 1.7;
+    }
+    .footer nav ul li .item1{
+        display: inline;
+    
+    }
+    
+}
+/* Final-footer */
